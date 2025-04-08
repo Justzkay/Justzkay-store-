@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toko top-up game terpercaya untuk Mobile Legends, Free Fire, Roblox. Harga murah, proses cepat, dan aman.">
+    <title>Justzkay Store 🍃 - Top Up Game Murah & Cepat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #FF6B00;
+            --primary-dark: #FF8E3C;
+            --secondary: #00A8E8;
+            --secondary-dark: #dc3545;
+            --white: #ffffff;
+            --light: #f8fafc;
+            --dark: #1e293b;
+            --gray: #64748b;
+            --light-gray: #cbd5e1;
+            --danger: #ef4444;
+            --success: #10b981;
+            --warning: #f59e0b;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        
+        html {
+  scroll-behavior: smooth;
+}
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+        }
+        
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+        
+        /* Header Styles */
+        header {
+            background-color: var(--white);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--dark);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .logo span {
+            color: var(--primary);
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        
+        .nav-links a {
+            color: var(--gray);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--primary);
+        }
+        
+        .nav-links a.active::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2.5px;
+            background-color: var(--primary);
+            border-radius: 2px;
+        }
+        
+        .icons {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+        
+        .icon-btn {
+            background: none;
+            border: none;
+            font-size: 1.2rem;
+            color: var(--gray);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .icon-btn:hover {
+            color: var(--primary);
+        }
+        
+        .cart-count {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background-color: var(--danger);
+            color: var(--white);
+            font-size: 0.7rem;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* Mobile Menu */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--dark);
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #dc3545 0%, #FF6B00 100%);
+            color: var(--white);
+            padding: 4rem 0;
+            border-radius: 0 0 2rem 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .hero-text {
+            flex: 1;
+        }
+        
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        .hero-description {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .hero-btn {
+            background-color: var(--white);
+            color: var(--primary);
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .hero-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .hero-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            filter: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.04));
+            transform: translateY(-20px);
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0% {
+                transform: translateY(-20px);
+            }
+            50% {
+                transform: translateY(0px);
+            }
+            100% {
+                transform: translateY(-20px);
+            }
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 4rem 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+        
+        /* Categories Section */
+        .categories {
+            background-color: var(--white);
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 3rem 0;
+            margin: 3rem 0;
+        }
+        
+        .category-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 2rem;
+            
+        }
+        
+        .category-card {
+            background-color: var(--white);
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 1.5rem;
+            width: 180px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid var(--light-gray);
+            height: 100%;
+            
+        }
+        
+        .category-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary);
+        }
+        
+        .category-icon {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .category-name {
+            font-weight: 600;
+            color: var(--dark);
+            text-decoration: none;
+            
+        }
+             .products-section {
+            padding: 3rem 0;
+            background-color: var(--light);
+            border-radius: 20px;
+            margin: 3rem 0;
+        }
+
+                .game-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .game-icon {
+            font-size: 2rem;
+            width: 60px;
+            height: 60px;
+            background-color: var(--white);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow-sm);
+        }
+        
+
+        
+        .game-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        
+        
+        .price-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: var(--white);
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    animation: fadeInUp 0.8s ease forwards;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+/* Animasi saat halaman dimuat */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.price-table thead {
+    background-color: var(--primary);
+    color: var(--white);
+    animation: slideDown 0.6s ease forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.price-table th {
+    padding: 1.2rem;
+    text-align: left;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.price-table td {
+    padding: 1.2rem;
+    border-bottom: 1px solid var(--light-gray);
+    transition: all 0.2s ease;
+}
+
+.price-table tr {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Animasi saat row di-hover */
+.price-table tbody tr {
+    animation: fadeIn 0.5s ease forwards;
+    opacity: 0;
+}
+
+.price-table tbody tr:nth-child(1) { animation-delay: 0.4s; }
+.price-table tbody tr:nth-child(2) { animation-delay: 0.5s; }
+.price-table tbody tr:nth-child(3) { animation-delay: 0.6s; }
+.price-table tbody tr:nth-child(4) { animation-delay: 0.7s; }
+.price-table tbody tr:nth-child(5) { animation-delay: 0.8s; }
+.price-table tbody tr:nth-child(n+6) { animation-delay: 0.9s; }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.price-table tr:last-child td {
+    border-bottom: none;
+}
+
+.price-table tr:hover {
+    background-color: rgba(56, 178, 172, 0.1);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    z-index: 1;
+    position: relative;
+}
+
+.price-amount {
+    font-weight: 600;
+    color: var(--dark);
+    transition: all 0.3s ease;
+}
+
+.price-table tr:hover .price-amount {
+    color: var(--primary);
+    transform: scale(1.1);
+}
+
+/* Responsif untuk perangkat mobile */
+@media (max-width: 768px) {
+    .price-table {
+        border-radius: 0.8rem;
+    }
+    
+    .price-table th,
+    .price-table td {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Override animasi pada mobile untuk performa lebih baik */
+    .price-table,
+    .price-table thead,
+    .price-table tbody tr {
+        animation: fadeIn 0.5s ease forwards;
+    }
+    
+    .price-table tr:hover {
+        transform: none;
+    }
+}
+
+/* Hover interaktif untuk header */
+.price-table th:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+/* Efek pulse untuk price-amount */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.price-amount:hover {
+    animation: pulse 1s ease infinite;
+}
+        
+        
+        
+        .add-to-cart-btn {
+            background-color: var(--primary);
+            color: var(--white);
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .add-to-cart-btn:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        /* Roblox Section */
+        .roblox-section {
+            background-color: var(--white);
+            border-radius: 1rem;
+            padding: 3rem 2rem;
+            text-align: center;
+            margin: 3rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        .roblox-icon {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .roblox-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .roblox-description {
+            font-size: 1.1rem;
+            color: var(--gray);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        
+        .contact-methods {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .contact-method {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background-color: var(--light);
+            padding: 0.8rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .contact-method:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .contact-icon {
+            color: var(--primary);
+        }
+        
+        /* Address Section */
+        .address-section {
+            background-color: var(--light);
+            padding: 3rem 0;
+        }
+        
+        .address-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .address-icon {
+            font-size: 1.8rem;
+            color: var(--danger);
+        }
+        
+        .address-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        
+        .address-content {
+            text-align: center;
+            background-color: var(--white);
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .address-content p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .address-content p:last-child {
+            margin-bottom: 0;
+        }
+        
+        /* Membership Section */
+        .membership-section {
+            background-color: var(--white);
+            padding: 4rem 0;
+        }
+        
+        .membership-cards {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+        
+        .membership-card {
+            background-color: var(--light);
+            border-radius: 1rem;
+            padding: 2rem;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .membership-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .membership-icon {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .membership-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .membership-price {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+        
+        .membership-features {
+            list-style: none;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+        
+        .membership-features li {
+            padding: 0.5rem 0;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .membership-features li::before {
+            content: "\f00c";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: var(--success);
+            position: absolute;
+            left: 0;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            background: linear-gradient(135deg, #dc3545 0%, #FF6B00 100%);
+            color: var(--white);
+            padding: 4rem 0;
+        }
+        
+        .testimonial-container {
+            display: flex;
+            gap: 2rem;
+            margin-top: 3rem;
+            overflow-x: auto;
+            padding-bottom: 1rem;
+            scroll-snap-type: x mandatory;
+        }
+        
+        .testimonial-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+            padding: 2rem;
+            min-width: 320px;
+            flex: 1;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            scroll-snap-align: start;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .testimonial-rating {
+            color: var(--warning);
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid var(--white);
+        }
+        
+        .author-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .author-info h4 {
+            margin: 0;
+            font-size: 1rem;
+        }
+        
+        .author-info p {
+            margin: 0;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background-color: var(--white);
+            padding: 4rem 0;
+            text-align: center;
+        }
+        
+        .cta-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-description {
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            font-size: 1.1rem;
+            color: var(--gray);
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        
+        .cta-btn {
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .cta-btn-primary {
+            background-color: var(--primary);
+            color: var(--white);
+            border: none;
+        }
+        
+        .cta-btn-primary:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .cta-btn-secondary {
+            background-color: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+        
+        .cta-btn-secondary:hover {
+            background-color: rgba(56, 178, 172, 0.1);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: var(--white);
+            padding: 4rem 0 1rem;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom:
+</head>
+      
+    <body>
+          <div class="loader-container" id="loader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="loader-text">Memuat</div>
+        </div>
+    </div>
+    <!-- Header -->
+    <header style="scroll-margin-top: 80px">
+        <div class="container">
+            <div class="navbar">
+                <a href="#" class="logo">
+                    Justzkay <span>Store</span> 🍃
+                </a>
+
+                <div class="icons">
+                    <button class="icon-btn"><i class="fas fa-search"></i></button>
+                    <button class="icon-btn"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></button>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Top Up Game Murah & Cepat</h1>
+                    <p class="hero-description">Isi diamond Mobile Legends, Free Fire, Robux, dan game lainnya dengan harga termurah dan proses instan hanya di Justzkay Store</p>
+<button class="hero-btn" onclick="document.getElementById('categories').scrollIntoView({ behavior: 'smooth' })">
+  <i class="fas fa-gamepad"></i> Beli Sekarang
+</button>
+                </div>
+                <div class="hero-image">
+                    <img src="https://i.ibb.co.com/xqngdk8v/IMG-20250407-WA0321-removebg-preview.png" alt="Gaming illustration">
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- Categories -->
+    
+<section class="categories" id="categories">
+    <div class="container">
+        <h2 class="section-title">Kategori Game</h2>
+        <p style="text-align: center; max-width: 700px; margin: 0 auto 2rem; color: #666;">Pilih game favorit Anda dan dapatkan harga spesial</p>
+        
+        <div class="category-container">
+
+            <a href="#mobile-legends" style="text-decoration: none;">
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="category-name">Mobile Legends</div>
+                </div>
+            </a>
+
+            <a href="#free-fire" style="text-decoration: none;">
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-fire"></i></div>
+                    <div class="category-name">Free Fire</div>
+                </div>
+            </a>
+
+            <a href="#robux-top-up" style="text-decoration: none;">
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-cube"></i></div>
+                    <div class="category-name">Robux Top Up</div>
+                </div>
+            </a>
+
+              <a href="#langganan-premium" style="text-decoration: none;">
+                <div class="category-card">
+                    <div class="category-icon"><i class="fas fa-crown"></i></div>
+                    <div class="category-name">Langganan Premium</div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+<section id="mobile-legends">
+<section class="products-section" id="produk">
+    <!-- Mobile Legends Products -->
+    <section class="products-section">
+        <div class="container">
+            <div class="game-header">
+                <div class="game-icon" style="color: #FFA500;">
+                    <i class="fab fa-android"></i>
+                </div>
+                <h2 class="game-title">Mobile Legends</h2>
+            </div>
+            
+            <table class="price-table">
+                <thead>
+                    <tr>
+                        <th>Produk</th>
+                        <th>Harga</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5 Diamond</td>
+                        <td class="price-amount">Rp3,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>12 Diamond</td>
+                        <td class="price-amount">Rp5,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>19 Diamond</td>
+                        <td class="price-amount">Rp8,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>28 Diamond</td>
+                        <td class="price-amount">Rp10,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>44 Diamond</td>
+                        <td class="price-amount">Rp14,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>86 Diamond</td>
+                        <td class="price-amount">Rp27,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>185 Diamond</td>
+                        <td class="price-amount">Rp53,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>600 Diamond</td>
+                        <td class="price-amount">Rp200,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    </section>
+</section>
+    <!-- Free Fire Products -->
+    <section id="free-fire">
+    <section class="products-section" style="background-color: var(--white);">
+        <div class="container">
+            <div class="game-header">
+                <div class="game-icon" style="color: #FF4500;">
+                    <i class="fas fa-fire"></i>
+                </div>
+                <h2 class="game-title">Free Fire</h2>
+            </div>
+            
+            <table class="price-table">
+                <thead>
+                    <tr>
+                        <th>Produk</th>
+                        <th>Harga</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5 Diamond</td>
+                        <td class="price-amount">Rp3,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>12 Diamond</td>
+                        <td class="price-amount">Rp5,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>70 Diamond</td>
+                        <td class="price-amount">Rp11,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>100 Diamond</td>
+                        <td class="price-amount">Rp15,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>210 Diamond</td>
+                        <td class="price-amount">Rp28,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                    <tr>
+                        <td>3640 Diamond</td>
+                        <td class="price-amount">Rp500,000</td>
+                        <td><button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Beli</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</section>
+    <!-- Roblox Section -->
+        <section id="robux-top-up">
+    <section class="roblox-section">
+        <div class="container">
+            <div class="roblox-content">
+                <div class="roblox-icon">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <h2 class="game-title">Robux Top Up</h2>
+                <p class="roblox-description">Untuk pembelian Robux, silahkan hubungi kami melalui kontak berikut:</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <span>+63 930 396 1434</span>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <span>Justzkay@Gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+</section>
+    <!-- Address Section -->
+<section class="address-section">
+    <div class="container">
+        <div class="address-header">
+            <div class="address-icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h2 class="address-title">Alamat Toko</h2>
+        </div>
+        
+        <div class="address-content">
+            <p>🏡 Jalan Kampung Bantar Gebang No.38, RT.002/RW.003, Bantargebang, Kec. Bantar Gebang, Kota Bks, Jawa Barat 17151</p>
+            <p>Kami buka setiap hari</p>
+        </div>
+    </div>
+</section>
+
+<!-- Membership Section -->
+<section id="langganan-premium">
+<section class="membership-section">
+    <div class="container">
+        <h2 class="section-title">Langganan Premium</h2>
+        <p style="text-align: center; max-width: 700px; margin: 0 auto 2rem; color: #666;">Nikmati manfaat eksklusif dengan berlangganan premium kami</p>
+        
+        <div class="membership-cards">
+            <div class="membership-card">
+                <div class="membership-icon">
+                    <i class="fas fa-calendar-day"></i>
+                </div>
+                <h3 class="membership-name">1 Hari</h3>
+                <div class="membership-price">Rp5,000</div>
+                <ul class="membership-features">
+                    <li>Akses penuh 1 hari</li>
+                    <li>Support prioritas</li>
+                    <li>Bonus 5% diamond</li>
+                </ul>
+<a href="https://wa.me/639303961434?text=Halo%20saya%20ingin%20berlangganan%20Membership" target="_blank" class="add-to-cart-btn" style="text-decoration: none;"><i class="fas fa-cart-plus"></i> Langganan</a>
+            </div>
+            
+            <div class="membership-card" style="border-color: var(--primary);">
+                <div class="membership-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <h3 class="membership-name">1 Bulan</h3>
+                <div class="membership-price">Rp50,000</div>
+                <ul class="membership-features">
+                    <li>Akses penuh 30 hari</li>
+                    <li>Support prioritas</li>
+                    <li>Bonus 10% diamond</li>
+                    <li>Cashback 5%</li>
+                </ul>
+<a href="https://wa.me/639303961434?text=Halo%20saya%20ingin%20berlangganan%20Membership" target="_blank" class="add-to-cart-btn" style="text-decoration: none;"><i class="fas fa-cart-plus"></i> Langganan</a>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+<!-- Testimonials -->
+<section class="testimonials">
+    <div class="container">
+        <h2 class="section-title" style="color: var(--white);">Apa Kata Pelanggan Kami</h2>
+        <p style="text-align: center; max-width: 700px; margin: 0 auto 2rem; color: rgba(255,255,255,0.8);">Testimoni dari pelanggan setia Justzkay Store</p><div class="testimonial-container">
+    <!-- Testimonial 1 - Aldi -->
+    <div class="testimonial-card">
+        <div class="testimonial-rating">★★★★★</div>
+        <p class="testimonial-text">"Pengisian diamond cepat dan harga murah! Recommended banget buat top up di sini. Prosesnya hanya 3 menit langsung masuk."</p>
+        <div class="testimonial-author">
+            <div class="author-avatar">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbmZoYvkw18g_eFwafuOdbZ6TR6zTwUcYmfPIGzuE_Jw&s" alt="Aldi">
+            </div>
+            <div class="author-info">
+                <h4>Aldi</h4>
+                <p>Mobile Legends Player</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Testimonial 2 - Zee -->
+    <div class="testimonial-card">
+        <div class="testimonial-rating">★★★★☆</div>
+        <p class="testimonial-text">"Proses nya lumayan cepat dan customer service selalu ramah. Saya suka disini dan sudah jadi langganan saya untuk top up Free fire. Rekomendasi banget!"</p>
+        <div class="testimonial-author">
+            <div class="author-avatar">
+                <img src="https://i.imgur.com/Lp3y5nD.jpg" alt="Zee">
+            </div>
+            <div class="author-info">
+                <h4>Zee</h4>
+                <p>Free Fire Player</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container">
+        <h2 class="cta-title">Siap Top Up Game Favorit Anda?</h2>
+        <p class="cta-description">Dapatkan diamond, Robux, dan item game lainnya dengan harga termurah dan proses instan hanya di Justzkay Store</p>
+        
+        <div class="cta-buttons">
+<button class="hero-btn" onclick="document.getElementById('produk').scrollIntoView({ behavior: 'smooth' })">
+  <i class="fas fa-gamepad"></i> Beli Sekarang
+</button>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-column footer-about">
+                <h3>Justzkay Store 🍃</h3>
+                <p> Menyediakan berbagai kebutuhan game dengan harga termurah dan proses tercepat.</p>
+                
+            </div>
+            
+            <div class="footer-column footer-links">
+                <h3>Link Cepat</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Produk</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Kategori</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Tentang Kami</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column footer-links">
+                <h3>Kategori Game</h3>
+                <ul>
+                    <li><a href="#mobile-legends"><i class="fas fa-chevron-right"></i> Mobile Legends</a></li>
+                    <li><a href="#free-fire"><i class="fas fa-chevron-right"></i> Free Fire</a></li>
+                    <li><a href="#robux-top-up"><i class="fas fa-chevron-right"></i> Roblox</a></li>
+                    <li><a href="#Langganan-premium"><i class="fas fa-chevron-right"></i> Membership</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column footer-contact">
+                <h3>Kontak Kami</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Kampung Bantar Gebang No.38, Kota Bekasi</p>
+                <p><i class="fas fa-phone"></i> +63 930 396 1434</p>
+                <p><i class="fas fa-envelope"></i> Justzkay@Gmail.com</p>
+                <p><i class="fas fa-clock"></i> hanya dengan janji temu</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Justzkay Store. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <!-- JavaScript -->
+
+<script>
+  document.querySelectorAll('.add-to-cart-btn').forEach((button, index) => {
+    button.addEventListener('click', () => {
+      const row = button.closest('tr');
+      const produk = row.querySelector('td:first-child').innerText;
+      const harga = row.querySelector('.price-amount').innerText;
+      const pesan = encodeURIComponent(`Halo admin, saya ingin membeli:\n\nProduk: ${produk}\nHarga: ${harga}\n\nTolong dibantu ya!`);
+      const waUrl = `https://wa.me/639303961434?text=${pesan}`;
+      window.open(waUrl, '_blank');
+    });
+  });
+</script>
+  
+
+  <script>
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        document.getElementById('loader').classList.add('hidden');
+        setTimeout(function() {
+          document.getElementById('content').classList.add('visible');
+          document.querySelector('h1').classList.add('animate');
+        }, 800);
+      }, 2500);
+    });
+  </script>
+
+    <!-- Animation for notifications -->
+  
+    
+</body>
+  </html>
