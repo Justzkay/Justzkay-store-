@@ -1,2 +1,2 @@
-# Justzkay-store-
-Website store by ©IRFAN - DIGITAL 
+# LemonZe-store-
+By Zakky
